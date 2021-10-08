@@ -33,6 +33,12 @@ eoh = False
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 yon = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
 
+while yon != "y":
+    if yon == "n":
+        break
+    yon = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ")
+    print(yon)
+
 player = []
 comp = []
 player_sum = 0
